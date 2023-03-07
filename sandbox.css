@@ -28,3 +28,11 @@ cursor: crosshair;
 -webkit-filter: blur(0px);
         filter: blur(0px);
 }
+.invert {
+-webkit-filter: invert(1);
+        filter: invert(1);
+}
+.invert:hover {
+-webkit-filter: invert(0);
+        filter: invert(0);
+}
